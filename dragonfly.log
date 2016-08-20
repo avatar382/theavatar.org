@@ -1,0 +1,3 @@
+# Logfile created on 2016-08-14 19:17:11 -0400 by logger.rb/54362
+D, [2016-08-14T19:22:11.486446 #87268] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20160814-87268-11qjfak.100' '-resize' '100x100^^' '-gravity' 'Center' '-crop' '100x100+0+0' '+repage' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20160814-87268-u4eehy'
+I, [2016-08-14T19:22:12.059114 #87268]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZnUiLCJodHRwOi8vbG9yZW1mbGlja3IuY29tLzEwMC8xMDAiXSxbInAiLCJ0aHVtYiIsIjEwMHgxMDAjIl1d/3821d4283f5e3ed9/100 200

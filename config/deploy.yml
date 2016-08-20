@@ -1,0 +1,22 @@
+# development:
+#   host: dev.example.com
+#   email: john@doe.net
+#   password: apassword
+#   # api_key: <your api key here>
+# staging:
+#   host: staging.example.com
+#   email: john@doe.net
+#   password: apassword
+#   # api_key: <your api key here>
+# production:
+#   host: www.example.com
+#   email: john@doe.net
+#   password: apassword
+#   # api_key: <your api key here>
+#   # ssl: true
+
+live:
+  host: localhost:3000
+  handle: condemned-dawn-9093
+  email: avatar382@gmail.com
+  api_key: edb2c9d7dd54908d883cb9b2b00a50306f23e23d
