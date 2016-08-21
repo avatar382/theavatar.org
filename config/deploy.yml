@@ -20,3 +20,9 @@ live:
   handle: condemned-dawn-9093
   email: avatar382@gmail.com
   api_key: edb2c9d7dd54908d883cb9b2b00a50306f23e23d
+
+prod:
+  host: temple-rich.herokuapp.com
+  handle: theavatar
+  email: avatar382@gmail.com
+  api_key: b9c263d816c7f2d4dc7bd24b8a8fc5c3ece768bc
