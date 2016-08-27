@@ -8,11 +8,10 @@ is_layout: true
 
 {% block header, short_name: true, priority: 1 %}
 .container
-  .jumbotron
-    {% editable_text jumbotron, rows: 5, priority: 1 %}
-    %h1 Wagon bootstrap template
-    %p This is a simple site with editable sections like this one. No content types.
-    {% endeditable_text %}
+  {% editable_text jumbotron, rows: 5, priority: 1 %}
+  %h1 Wagon bootstrap template
+  %p This is a simple site with editable sections like this one. No content types.
+  {% endeditable_text %}
 {% endblock %}
 
 .container
