@@ -1,0 +1,20 @@
+- "Sample 1":
+    content: "Cupiditate earum quo nam aut tenetur dicta. Facilis eaque ad magni sint. Voluptatem eos id qui ut temporibus. Id rerum doloremque temporibus illo rerum distinctio. Aliquam dolore atque reiciendis veritatis fuga."
+    event_date: 2016/08/28 # YYYY/MM/DD
+    # picture: /samples/blog_posts/yourfile.txt # Path to a file in the public/samples folder or to a remote and external file.
+
+- "Sample 2":
+    content: "Accusantium saepe cupiditate aliquid sint suscipit at nisi. Facere rem suscipit voluptas consequatur. Aut qui consequatur totam facere aut laboriosam. Voluptas cumque repellat id porro aut qui."
+    event_date: 2016/08/28 # YYYY/MM/DD
+    # picture: /samples/blog_posts/yourfile.txt # Path to a file in the public/samples folder or to a remote and external file.
+
+- "Sample 3":
+    content: "Culpa iusto aut. Enim fuga provident et corrupti explicabo odit eveniet. Quis soluta nisi facilis eaque. Est molestiae velit et optio doloremque harum."
+    event_date: 2016/08/28 # YYYY/MM/DD
+    # picture: /samples/blog_posts/yourfile.txt # Path to a file in the public/samples folder or to a remote and external file.
+
+- "Sample 4":
+    content: "Dolores similique ducimus. Voluptatum iusto et voluptas recusandae dolorem molestias labore. Animi maiores repellat eum excepturi. Cupiditate tenetur ut corrupti tempore ut ipsa sed."
+    event_date: 2016/08/28 # YYYY/MM/DD
+    # picture: /samples/blog_posts/yourfile.txt # Path to a file in the public/samples folder or to a remote and external file.
+

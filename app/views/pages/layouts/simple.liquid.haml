@@ -7,10 +7,11 @@ is_layout: true
 {% block content %}
 
 {% block header, short_name: true, priority: 1 %}
+%br
 .container
-  {% editable_text jumbotron, rows: 5, priority: 1 %}
-  %h1 Wagon bootstrap template
-  %p This is a simple site with editable sections like this one. No content types.
+  {% editable_text page_title %}
+  %h1
+    Manny Rodriguez
   {% endeditable_text %}
 {% endblock %}
 

@@ -8,9 +8,13 @@
         %span.icon-bar
       %a.navbar-brand{href: "{% path_to home %}"} {{ &nbsp; }}
     #navbar.navbar-collapse.collapse
-      %ul.nav.navbar-nav.navbar-right
-        %li{class: "{% if page.handle == 'home' %}active{% endif %}" }
-          %a{ href: "{% path_to home %}"} Home
+      %ul.nav.navbar-nav.navbar-center
+        {% capture site_logo %}{% editable_file "photo" %}/tmp/tmp.jpg{% endeditable_file %}{% endcapture %}
+
+        %li
+          %a{ href: "{% path_to home %}"} 
+            %img(src="{{site_logo | resize: '20x' }}")
+
         {% for page_in_nav in site.pages %}
         {% if page_in_nav.depth == 1 %}
         %li{class: "{% if page.fullpath == page_in_nav.fullpath %}active{% endif %}" }
