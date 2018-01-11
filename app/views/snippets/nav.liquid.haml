@@ -1,19 +1,23 @@
-%nav.navbar.navbar-default.navbar-fixed-top
-  .container
-    .navbar-header
-      %button.navbar-toggle.collapsed{"aria-controls" => "navbar", "aria-expanded" => "false", "data-target" => "#navbar", "data-toggle" => "collapse", type: "button"}
-        %span.sr-only Toggle navigation
-        %span.icon-bar
-        %span.icon-bar
-        %span.icon-bar
-      %a.navbar-brand{href: "{% path_to home %}"} {{ &nbsp; }}
-    #navbar.navbar-collapse.collapse
-      %ul.nav.navbar-nav.navbar-center
-        {% capture site_logo %}{% editable_file "photo" %}/tmp/tmp.jpg{% endeditable_file %}{% endcapture %}
+.container
+  .col-sm-12
+    .row.text-center
+      %h1
+        Manny Rodriguez
 
-        %li
+      %a(href="http://github.com/avatar382" target="_blank")
+        {{ 'images/github.png' | resize: '32x32' | image_tag }}
+
+      %a(href="https://www.instagram.com/avatar382/" target="_blank")
+        {{ 'images/instagram.png' | resize: '32x32' | image_tag }}
+
+      %a(href="mailto:manny@theavatar.org")
+        {{ 'images/email.jpg' | resize: '32x32' | image_tag }}
+
+    .row
+      %ul.nav.nav-tabs
+        %li{class: "{% if page.slug == 'index' %}active{% endif %}" }
           %a{ href: "{% path_to home %}"} 
-            %img(src="{{site_logo | resize: '20x' }}")
+            Home
 
         {% for page_in_nav in site.pages %}
         {% if page_in_nav.depth == 1 %}
