@@ -7,17 +7,13 @@ is_layout: true
 {% block content %}
 
 {% block header, short_name: true, priority: 1 %}
-%br
-.container
-  {% editable_text page_title %}
-  %h1
-  {% endeditable_text %}
+
 {% endblock %}
 
 .container
   {% block main, short_name: true %}
   .row
-    .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+    .col-sm-10.col-sm-offset-1
       {% editable_text body %}
       %p
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?

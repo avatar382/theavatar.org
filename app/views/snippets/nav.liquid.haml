@@ -1,23 +1,25 @@
 .container
-  .col-sm-12
+  .col-sm-4.col-sm-offset-4
     .row.text-center
       %h1
         Manny Rodriguez
+      %hr
 
       %a(href="http://github.com/avatar382" target="_blank")
-        {{ 'images/github.png' | resize: '32x32' | image_tag }}
+        {{ 'github.png' | theme_image_tag }}
 
       %a(href="https://www.instagram.com/avatar382/" target="_blank")
-        {{ 'images/instagram.png' | resize: '32x32' | image_tag }}
+        {{ 'instagram.png' | theme_image_tag }}
 
       %a(href="mailto:manny@theavatar.org")
-        {{ 'images/email.jpg' | resize: '32x32' | image_tag }}
+        {{ 'email.jpg' | theme_image_tag }}
 
+  .col-sm-10.col-sm-offset-1
     .row
       %ul.nav.nav-tabs
         %li{class: "{% if page.slug == 'index' %}active{% endif %}" }
           %a{ href: "{% path_to home %}"} 
-            Home
+            Here
 
         {% for page_in_nav in site.pages %}
         {% if page_in_nav.depth == 1 %}
