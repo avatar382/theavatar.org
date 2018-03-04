@@ -320,3 +320,171 @@ convert: unable to open file `/Users/manny/code/client_websites/theavatar.org/pu
 convert: no images defined `/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180111-91758-1w8zb8u.png' @ error/convert.c/ConvertImageCommand/3044.
 
 I, [2018-01-11T20:10:38.014676 #91758]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvaW1hZ2VzL2ltYWdlcy9pbnN0YWdyYW0ucG5nIl0sWyJwIiwidGh1bWIiLCIzMngzMiJdXQ/1e5063008433dd35/instagram.png 500
+D, [2018-02-28T16:55:40.858510 #41113] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-41113-h342dv.jpg'
+W, [2018-02-28T16:55:40.870049 #41113]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-41113-h342dv.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T16:55:40.870304 #41113]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvaW1ncmVzLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/0ddf4cebe81a2700/imgres.jpg 500
+D, [2018-02-28T16:55:40.876991 #41113] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-41113-1dfk3in.jpg'
+W, [2018-02-28T16:55:40.887230 #41113]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-41113-1dfk3in.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T16:55:40.887382 #41113]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvUGhvdG9fU2VwXzA0X185XzUyXzQ3X0FNLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/c22b55ac55854311/Photo_Sep_04__9_52_47_AM.jpg 500
+D, [2018-02-28T16:57:12.827823 #41113] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-41113-1un0383.jpg'
+W, [2018-02-28T16:57:12.837345 #41113]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-41113-1un0383.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T16:57:12.837538 #41113]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvaW1ncmVzLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/0ddf4cebe81a2700/imgres.jpg 500
+D, [2018-02-28T16:57:12.843616 #41113] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-41113-y7h5b6.jpg'
+W, [2018-02-28T16:57:12.852813 #41113]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-41113-y7h5b6.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T16:57:12.852979 #41113]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvUGhvdG9fU2VwXzA0X185XzUyXzQ3X0FNLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/c22b55ac55854311/Photo_Sep_04__9_52_47_AM.jpg 500
+D, [2018-02-28T16:57:14.655944 #41113] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-41113-ql1icu.jpg'
+W, [2018-02-28T16:57:14.665892 #41113]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-41113-ql1icu.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T16:57:14.666086 #41113]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvaW1ncmVzLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/0ddf4cebe81a2700/imgres.jpg 500
+D, [2018-02-28T16:57:14.672288 #41113] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-41113-1vklz4c.jpg'
+W, [2018-02-28T16:57:14.681743 #41113]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-41113-1vklz4c.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T16:57:14.681928 #41113]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvUGhvdG9fU2VwXzA0X185XzUyXzQ3X0FNLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/c22b55ac55854311/Photo_Sep_04__9_52_47_AM.jpg 500
+D, [2018-02-28T16:57:52.662249 #44593] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-44593-wx7sw0.jpg'
+W, [2018-02-28T16:57:52.674175 #44593]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-44593-wx7sw0.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T16:57:52.674425 #44593]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvaW1ncmVzLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/0ddf4cebe81a2700/imgres.jpg 500
+D, [2018-02-28T16:57:52.676751 #44593] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-44593-1dcngyg.jpg'
+W, [2018-02-28T16:57:52.686240 #44593]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-44593-1dcngyg.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T16:57:52.686395 #44593]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvUGhvdG9fU2VwXzA0X185XzUyXzQ3X0FNLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/c22b55ac55854311/Photo_Sep_04__9_52_47_AM.jpg 500
+D, [2018-02-28T16:58:23.777952 #44593] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-44593-1a4kxfx.jpg'
+W, [2018-02-28T16:58:23.787690 #44593]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-44593-1a4kxfx.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T16:58:23.787848 #44593]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvaW1ncmVzLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/0ddf4cebe81a2700/imgres.jpg 500
+D, [2018-02-28T16:58:23.793311 #44593] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-44593-ar9lrc.jpg'
+W, [2018-02-28T16:58:23.802434 #44593]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-44593-ar9lrc.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T16:58:23.802583 #44593]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvUGhvdG9fU2VwXzA0X185XzUyXzQ3X0FNLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/c22b55ac55854311/Photo_Sep_04__9_52_47_AM.jpg 500
+D, [2018-02-28T17:00:10.777946 #45452] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-1n5ot36.jpg'
+D, [2018-02-28T17:00:10.785182 #45452] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-rbn66s.jpg'
+W, [2018-02-28T17:00:10.793836 #45452]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-1n5ot36.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T17:00:10.794015 #45452]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvaW1ncmVzLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/0ddf4cebe81a2700/imgres.jpg 500
+W, [2018-02-28T17:00:10.797942 #45452]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-rbn66s.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T17:00:10.798093 #45452]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvUGhvdG9fU2VwXzA0X185XzUyXzQ3X0FNLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/c22b55ac55854311/Photo_Sep_04__9_52_47_AM.jpg 500
+D, [2018-02-28T17:00:15.525605 #45452] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-veari.jpg'
+W, [2018-02-28T17:00:15.537284 #45452]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-veari.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T17:00:15.537499 #45452]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvaW1ncmVzLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/0ddf4cebe81a2700/imgres.jpg 500
+D, [2018-02-28T17:00:15.543867 #45452] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-d2e7b9.jpg'
+W, [2018-02-28T17:00:15.556669 #45452]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-d2e7b9.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T17:00:15.556815 #45452]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvUGhvdG9fU2VwXzA0X185XzUyXzQ3X0FNLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/c22b55ac55854311/Photo_Sep_04__9_52_47_AM.jpg 500
+D, [2018-02-28T17:00:18.282855 #45452] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-1wwk90h.jpg'
+W, [2018-02-28T17:00:18.295123 #45452]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-1wwk90h.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T17:00:18.295320 #45452]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvaW1ncmVzLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/0ddf4cebe81a2700/imgres.jpg 500
+D, [2018-02-28T17:00:18.301621 #45452] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-sh8aue.jpg'
+W, [2018-02-28T17:00:18.312823 #45452]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-sh8aue.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T17:00:18.313026 #45452]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvUGhvdG9fU2VwXzA0X185XzUyXzQ3X0FNLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/c22b55ac55854311/Photo_Sep_04__9_52_47_AM.jpg 500
+D, [2018-02-28T17:27:24.281289 #45452] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-8v9mdh.jpg'
+W, [2018-02-28T17:27:24.292180 #45452]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-8v9mdh.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T17:27:24.292397 #45452]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvaW1ncmVzLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/0ddf4cebe81a2700/imgres.jpg 500
+D, [2018-02-28T17:27:24.298044 #45452] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-ihtf97.jpg'
+W, [2018-02-28T17:27:24.307167 #45452]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-ihtf97.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T17:27:24.307308 #45452]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvUGhvdG9fU2VwXzA0X185XzUyXzQ3X0FNLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/c22b55ac55854311/Photo_Sep_04__9_52_47_AM.jpg 500
+D, [2018-02-28T17:28:04.940327 #45452] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-1x9hmfo.jpg'
+W, [2018-02-28T17:28:04.950476 #45452]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-1x9hmfo.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T17:28:04.950673 #45452]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvaW1ncmVzLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/0ddf4cebe81a2700/imgres.jpg 500
+D, [2018-02-28T17:28:04.957355 #45452] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-i70j94.jpg'
+W, [2018-02-28T17:28:04.968221 #45452]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-i70j94.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T17:28:04.968425 #45452]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvUGhvdG9fU2VwXzA0X185XzUyXzQ3X0FNLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/c22b55ac55854311/Photo_Sep_04__9_52_47_AM.jpg 500
+D, [2018-02-28T17:30:21.846420 #45452] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-s8pw4c.jpg'
+W, [2018-02-28T17:30:21.856241 #45452]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-s8pw4c.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T17:30:21.856531 #45452]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvaW1ncmVzLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/0ddf4cebe81a2700/imgres.jpg 500
+D, [2018-02-28T17:30:21.863944 #45452] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-1wad0n8.jpg'
+W, [2018-02-28T17:30:21.873394 #45452]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-1wad0n8.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T17:30:21.873545 #45452]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvUGhvdG9fU2VwXzA0X185XzUyXzQ3X0FNLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/c22b55ac55854311/Photo_Sep_04__9_52_47_AM.jpg 500
+D, [2018-02-28T17:31:24.516911 #45452] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-1dy2tnz.jpg'
+W, [2018-02-28T17:31:24.526619 #45452]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-1dy2tnz.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T17:31:24.526804 #45452]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvaW1ncmVzLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/0ddf4cebe81a2700/imgres.jpg 500
+D, [2018-02-28T17:31:24.533333 #45452] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-dcxpt7.jpg'
+W, [2018-02-28T17:31:24.542868 #45452]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/client_websites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180228-45452-dcxpt7.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-02-28T17:31:24.543036 #45452]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9jbGllbnRfd2Vic2l0ZXMvdGhlYXZhdGFyLm9yZy9wdWJsaWMvc2FtcGxlcy9jb250ZW50X2VudHJpZXMvUGhvdG9fU2VwXzA0X185XzUyXzQ3X0FNLmpwZyJdLFsicCIsInRodW1iIiwiMzAweCJdXQ/c22b55ac55854311/Photo_Sep_04__9_52_47_AM.jpg 500
+D, [2018-03-04T15:41:12.228760 #46928] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/ClientWebsites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180304-46928-gy566v.jpg'
+W, [2018-03-04T15:41:12.240230 #46928]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/ClientWebsites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180304-46928-gy566v.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-03-04T15:41:12.240435 #46928]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9DbGllbnRXZWJzaXRlcy90aGVhdmF0YXIub3JnL3B1YmxpYy9zYW1wbGVzL2NvbnRlbnRfZW50cmllcy9pbWdyZXMuanBnIl0sWyJwIiwidGh1bWIiLCIzMDB4Il1d/56f80d6bb632f279/imgres.jpg 500
+D, [2018-03-04T15:41:12.246441 #46928] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/ClientWebsites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180304-46928-1jfsezc.jpg'
+W, [2018-03-04T15:41:12.256173 #46928]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/ClientWebsites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180304-46928-1jfsezc.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-03-04T15:41:12.256352 #46928]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9DbGllbnRXZWJzaXRlcy90aGVhdmF0YXIub3JnL3B1YmxpYy9zYW1wbGVzL2NvbnRlbnRfZW50cmllcy9QaG90b19TZXBfMDRfXzlfNTJfNDdfQU0uanBnIl0sWyJwIiwidGh1bWIiLCIzMDB4Il1d/ede0b811051cebf4/Photo_Sep_04__9_52_47_AM.jpg 500
+D, [2018-03-04T15:41:22.389194 #46928] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/ClientWebsites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180304-46928-ulhe97.jpg'
+W, [2018-03-04T15:41:22.400035 #46928]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/ClientWebsites/theavatar.org/public/samples/content_entries/imgres.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180304-46928-ulhe97.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-03-04T15:41:22.400285 #46928]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9DbGllbnRXZWJzaXRlcy90aGVhdmF0YXIub3JnL3B1YmxpYy9zYW1wbGVzL2NvbnRlbnRfZW50cmllcy9pbWdyZXMuanBnIl0sWyJwIiwidGh1bWIiLCIzMDB4Il1d/56f80d6bb632f279/imgres.jpg 500
+D, [2018-03-04T15:41:22.407267 #46928] DEBUG -- : DRAGONFLY: shell command: '/usr/local/bin/convert' '/Users/manny/code/ClientWebsites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180304-46928-105k3ii.jpg'
+W, [2018-03-04T15:41:22.418267 #46928]  WARN -- : DRAGONFLY: caught error - Command failed ('/usr/local/bin/convert' '/Users/manny/code/ClientWebsites/theavatar.org/public/samples/content_entries/Photo_Sep_04__9_52_47_AM.jpg' '-resize' '300x' '/var/folders/70/8qsz1w6x2nnfv0rh08sfzdsm0000gp/T/dragonfly20180304-46928-105k3ii.jpg') with exit status  and stderr dyld: Library not loaded: /usr/local/lib/libMagickCore.5.dylib
+  Referenced from: /usr/local/bin/convert
+  Reason: image not found
+
+I, [2018-03-04T15:41:22.418478 #46928]  INFO -- : DRAGONFLY: GET /steam/dynamic/W1siZmYiLCIvVXNlcnMvbWFubnkvY29kZS9DbGllbnRXZWJzaXRlcy90aGVhdmF0YXIub3JnL3B1YmxpYy9zYW1wbGVzL2NvbnRlbnRfZW50cmllcy9QaG90b19TZXBfMDRfXzlfNTJfNDdfQU0uanBnIl0sWyJwIiwidGh1bWIiLCIzMDB4Il1d/ede0b811051cebf4/Photo_Sep_04__9_52_47_AM.jpg 500

@@ -1,0 +1,74 @@
+---
+title: Home page
+slug: index
+handle: home
+position: 0
+listed: false
+published: true
+is_layout: false
+editable_elements:
+  content/main/home_content: '<h2>Me in 10 seconds&nbsp;</h2><p><br></p><p>I''m into
+    meditation and enjoy quiet and stillness. I''m a minimalist.&nbsp;</p><p>I study
+    martial arts. Kung fu balances out my clumsy side and tight hip flexors.&nbsp;</p><p>I''m
+    a computer geek. I practice back end web programming and sometimes even enjoy
+    debugging.&nbsp;</p><p>I''m into <a rel="nofollow" href="https://hamberg.no/gtd/">GTD</a>.
+    I''m a spontaneous planner!</p><p>I''m a gearhead. I love driving, wrenching on
+    cars, watching old episodes of Top Gear, and sightseeing in junkyards.<br></p><p>I
+    love being outside, and have recently discovered the joys of KOA campgrounds during
+    road trips.</p><p>I''m an <a rel="nofollow" target="_blank" href="https://www.16personalities.com/isfj-personality">ISFJ</a>&nbsp;on
+    the MBTI, and a Libra. Most of the time.</p><p><br></p><hr><h2>Show and Tell</h2><p><br></p><p><i>2/17/18</i><br></p><h4><br></h4><h4>macOS
+    Automator: Supporting Intentional Computing<br></h4><p>I do a lot on my computer.
+    Sometimes, it feels like too much.&nbsp;</p><p>I don''t like the feeling when
+    I spend too much aimless time in front of a screen. It brings on a tiredness,
+    a sense of feeling drained even when I haven''t done very much.</p><p>One thing
+    that really helps me with this is having only the apps open that I need for what
+    I am doing at the moment.</p><p>So, if I''m planning -- I want to have OmniFocus,
+    my calendar, and Evernote open. That''s it.</p><p>I''m I''m working, then it''s
+    Terminal, Sublime Text, and a blank browser window.</p><p>Having only what I need
+    on my screen improves my focus and helps me keep my sanity.</p><p>It also makes
+    it easier to get into the zone: It''s so much easier to gain momentum when I''m
+    starting from a blank desktop with nothing open, rather than whatever is up from
+    my last session.</p><p>However, closing and opening apps one at a time can be
+    a lot of work!</p><p>Automator is an app that comes with macOS that makes it easy
+    to script repeat tasks. It has a graphical interface that''s quite inituitive
+    once you get the hang of it.&nbsp;</p><p>I''ve created Automator scripts for each
+    of the ''modes'' that I might use my comptuer for, including planning, banking,
+    and working. Each of those scripts opens the only the apps I need for that mode.&nbsp;</p><p>Another
+    script, ''Nuke'', immediately closes all opem apps. This makes it easy to get
+    to a blank screen.</p><p>These scripts have changed how I use my computer. Instead
+    of multitasking with lots of unrelated stuff open, it''s much easier to be in
+    the mode of doing just one thing and having exactly what I need for that.</p><p><a
+    rel="nofollow" target="_blank" href="https://www.lifewire.com/automate-opening-applications-and-folders-on-mac-2260908"
+    title="Lifewire Post">This post on Lifewire has a great intro to Automator</a>
+    and how to use it to write scripts that launch and close apps.</p><p><br></p><p><br></p><h4>Camera
+    to Inbox on iPhone: Automated!</h4><p>My favorite part of being a <a rel="nofollow"
+    target="_blank" href="https://lifehacker.com/productivity-101-a-primer-to-the-getting-things-done-1551880955"
+    title="GTD">GTD practitioner</a> is cultivating the habit of quick capture. This
+    means not holding on to things you want to remember in the mind by capturing them
+    somewhere instead.</p><p>One of my favorite ways to capture is with my camera
+    phone.&nbsp;</p><p>Just the other day, I was at the market and saw a flyer about
+    a board game meetup. Awesome! Just snap a picture and all the info is there for
+    me when I''m in front of my calendar.</p><p>Unfortunately, that means I need to
+    process my camera roll as another inbox. The game night may pass me by because
+    it can take me a while to sort through the pictures I take. Deep down I know this,
+    so it''s still an open loop in my brain.</p><p>For <a rel="nofollow" target="_blank"
+    href="https://www.omnigroup.com/omnifocus" title="OmniFocus">OmniFocus</a> users
+    (an awesome GTD app for Mac and iOS!) I found a <a rel="nofollow" target="_blank"
+    href="https://discourse.omnigroup.com/t/quickly-add-an-omni-task-with-picture-attachment/22248"
+    title="Forum link">really helpful post if the OmniFocus forum</a> describing how
+    to use Workflow to totally automate the process of taking a photo and having it
+    end up in your OmniFocus Inbox. It includes 90% of the work to get you there.</p><p>Thanks,
+    chrisvacc!</p><p><br></p>'
+---
+{% extends 'layouts/simple' %}
+{% block content/main %}
+<div class='row'>
+  <div class='col-sm-10 col-sm-offset-1'>
+    {% editable_text home_content %}
+    <h2>Heading #1</h2>
+    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+    {% endeditable_text %}
+  </div>
+</div>
+{% endblock %}
+

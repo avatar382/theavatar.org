@@ -1,0 +1,35 @@
+---
+title: Default layout
+slug: default
+position: 99
+listed: false
+published: false
+is_layout: false
+---
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+    <meta charset='utf-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <title>
+      theavatar.org
+    </title>
+    <link rel="shortcut icon" href="{{ "favicon.ico" | theme_image_url }}" type="image/x-icon">
+    <link rel="icon" href="{{ "favicon.ico" | theme_image_url }}" type="image/x-icon">
+    {{ 'bootstrap.css' | stylesheet_tag }}
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    {{ 'application.css' | stylesheet_tag }}
+  </head>
+  <body>
+    {% include 'nav' %}
+    {% block content %}
+    {% endblock %}
+    {% include 'footer' %}
+    {{ 'jquery.min.js' | javascript_tag }}
+    {{ 'bootstrap.min.js' | javascript_tag }}
+    {{ 'application.js' | javascript_tag }}
+  </body>
+</html>
+

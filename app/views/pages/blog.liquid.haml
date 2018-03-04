@@ -11,7 +11,7 @@ published: true
 # is_layout: true
 
 # position among sibling pages
-# position: 1
+position: 2
 
 # sets a redirection to the given url (301)
 # redirect_url: "<url to a page or to a remote url>"
@@ -31,21 +31,22 @@ published: true
 {% block content/main %}
 
 .row
-  .col-lg-12.col-md-12.blog
+  .col-sm-10.col-sm-offset-1
     {% for post in contents.blog_posts %}
     %br
     %h2 {{ post.title }}
     %h4 {{ post.event_date | localized_date }}
 
     %hr
-    %p
-      {{ post.content }}
 
     {% if post.picture %}
-    %br
-    %img(src="{{post.picture.url | resize: '300x' }}")
-    {% endif %}
 
+    .text-center
+      %img(src="{{post.picture.url | resize: '300x' }}")
+    %br
+    {% endif %}
+    %p
+      {{ post.content }}
 
     {% endfor %}
 

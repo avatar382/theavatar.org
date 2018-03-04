@@ -1,0 +1,16 @@
+body {
+  font-family: "Lora"; }
+
+a:hover {
+  text-decoration: none; }
+
+footer {
+  margin-top: 70px; }
+
+.navbar-default {
+  background-color: #fff; }
+
+.blog img, .projects img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
